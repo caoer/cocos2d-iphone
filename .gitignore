@@ -1,3 +1,5 @@
+*.orig
+
 # git ignore template from: http://cocoaheads.tumblr.com/post/1350304132/gitignore-template-for-xcode3-4
 # cocos2d specific
 PLBlocks.framework/*
