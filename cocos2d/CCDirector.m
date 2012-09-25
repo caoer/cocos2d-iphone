@@ -341,6 +341,9 @@ static CCDirector *_sharedDirector = nil;
 	
 	[self pushScene:scene];
 	[self startAnimation];	
+    
+    // Fix: render the 1st frame to avoid flicker
+    [self drawScene];
 }
 
 -(void) replaceScene: (CCScene*) scene
